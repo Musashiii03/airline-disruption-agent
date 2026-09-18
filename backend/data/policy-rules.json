@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "policyId": 3,
+    "ruleType": "delay_threshold_3h",
+    "conditionJson": {
+      "delayHours": {
+        "gt": 3
+      }
+    },
+    "actionJson": {
+      "mealVoucher": true,
+      "loungeAccess": true,
+      "hotelAccommodation": false
+    },
+    "priority": 10,
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "policyId": 3,
+    "ruleType": "delay_threshold_5h",
+    "conditionJson": {
+      "delayHours": {
+        "gt": 5
+      }
+    },
+    "actionJson": {
+      "mealVoucher": true,
+      "loungeAccess": true,
+      "hotelAccommodation": true
+    },
+    "priority": 20,
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "policyId": 4,
+    "ruleType": "fare_diff_threshold",
+    "conditionJson": {
+      "fareDifference": {
+        "gte": 1500
+      }
+    },
+    "actionJson": {
+      "requiresSupervisorApproval": true,
+      "agentApprovalLimit": 1500
+    },
+    "priority": 10,
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "policyId": 1,
+    "ruleType": "cancellation_refund",
+    "conditionJson": {
+      "status": "CANCELLED"
+    },
+    "actionJson": {
+      "allowRefund": true,
+      "allowRebook": true
+    },
+    "priority": 10,
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  }
+]

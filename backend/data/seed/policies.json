@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "code": "CANCEL_REBOOK_001",
+    "name": "Cancellation Rebooking",
+    "category": "cancellation",
+    "content": "When an airline cancels a flight due to operational reasons, the customer is entitled to: 1. Free rebooking on the next available flight 2. Full cash refund. The customer may choose one of these options.",
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "code": "REFUND_PROC_001",
+    "name": "Refund Processing",
+    "category": "refund",
+    "content": "Full refund is available for cancelled flights. Processing time: 7-10 business days. Refunds are processed to the original payment method.",
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "code": "DELAY_COMP_001",
+    "name": "Delay Compensation",
+    "category": "delay",
+    "content": "Compensation for flight delays: - Delay > 3 hours: Meal voucher + Lounge access - Delay > 5 hours: Meal voucher + Lounge access + Hotel accommodation. Hotel accommodation is for the delayed period only, not automatically a full night.",
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "code": "FARE_DIFF_001",
+    "name": "Fare Difference",
+    "category": "fare_difference",
+    "content": "When a customer requests to move to a higher-fare flight: - Agent approval limit: ₹1,500 - Amounts exceeding ₹1,500 require supervisor approval - Customer may be asked to pay the difference or supervisor may approve the upgrade.",
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 5,
+    "code": "LOYALTY_001",
+    "name": "Loyalty Tier Benefits",
+    "category": "loyalty",
+    "content": "Loyalty tier benefits: - Platinum: Priority rebooking, access to premium facilities - Gold: Standard priority rebooking - Silver: Standard benefits. Note: Loyalty status does not create additional compensation beyond standard policies.",
+    "active": true,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  }
+]

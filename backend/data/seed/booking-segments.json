@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "bookingId": 1,
+    "flightNumber": "SK-204",
+    "origin": "Delhi",
+    "destination": "Goa",
+    "flightDate": "2026-09-20",
+    "scheduledDeparture": "18:40",
+    "status": "CANCELLED",
+    "disruptionReason": "Operational reasons",
+    "delayHours": null,
+    "newDeparture": null,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "bookingId": 1,
+    "flightNumber": "SK-205",
+    "origin": "Goa",
+    "destination": "Delhi",
+    "flightDate": "2026-09-23",
+    "scheduledDeparture": "09:00",
+    "status": "ON_TIME",
+    "disruptionReason": null,
+    "delayHours": null,
+    "newDeparture": null,
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "bookingId": 2,
+    "flightNumber": "SK-118",
+    "origin": "Mumbai",
+    "destination": "Bengaluru",
+    "flightDate": "2026-09-21",
+    "scheduledDeparture": "07:10",
+    "status": "DELAYED",
+    "disruptionReason": null,
+    "delayHours": 4.0,
+    "newDeparture": "11:10",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "bookingId": 3,
+    "flightNumber": "SK-305",
+    "origin": "Delhi",
+    "destination": "Hyderabad",
+    "flightDate": "2026-09-19",
+    "scheduledDeparture": "14:00",
+    "status": "DELAYED",
+    "disruptionReason": null,
+    "delayHours": 6.0,
+    "newDeparture": "20:00",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  }
+]

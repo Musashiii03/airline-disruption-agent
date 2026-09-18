@@ -1,0 +1,10 @@
+{
+  "name": "airline-resolution-agent",
+  "version": "1.0.0",
+  "description": "Customer-facing airline disruption resolution agent",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "conversationId": 112,
+    "customerId": 1,
+    "pnr": "SK4821X",
+    "pendingInformation": [],
+    "activeActionIds": [
+      "ACT-000001"
+    ],
+    "activeEscalationIds": [],
+    "id": "CS-1789717803049-s8uove1og",
+    "createdAt": "2026-09-18T07:50:03.049Z",
+    "updatedAt": "2026-09-18T07:50:03.056Z",
+    "bookingId": 1,
+    "flightNumber": "SK-204",
+    "lastIntent": "FULL_REFUND"
+  },
+  {
+    "conversationId": 1,
+    "customerId": 1,
+    "pnr": "SK4821X",
+    "pendingInformation": [],
+    "activeActionIds": [
+      "ACT-000002"
+    ],
+    "activeEscalationIds": [],
+    "id": "CS-1789718377721-bvq4zi32u",
+    "createdAt": "2026-09-18T07:59:37.721Z",
+    "updatedAt": "2026-09-18T08:25:48.433Z",
+    "bookingId": 1,
+    "flightNumber": "SK-204",
+    "lastIntent": "REFUND_REQUEST",
+    "lastCustomerTone": "FRUSTRATED"
+  },
+  {
+    "conversationId": 2,
+    "customerId": 2,
+    "pnr": "TR1190B",
+    "pendingInformation": [],
+    "activeActionIds": [
+      "ACT-000003",
+      "ACT-000004"
+    ],
+    "activeEscalationIds": [],
+    "id": "CS-1789719012776-6mra9097f",
+    "createdAt": "2026-09-18T08:10:12.776Z",
+    "updatedAt": "2026-09-18T08:10:56.756Z",
+    "bookingId": 2,
+    "flightNumber": "SK-118",
+    "lastIntent": "DELAY_COMPENSATION",
+    "lastCustomerTone": "URGENT"
+  },
+  {
+    "conversationId": 3,
+    "customerId": 3,
+    "pnr": "WL7742",
+    "pendingInformation": [],
+    "activeActionIds": [],
+    "activeEscalationIds": [
+      "ESC-000001",
+      "ESC-000002",
+      "ESC-000003",
+      "ESC-000004",
+      "ESC-000005",
+      "ESC-000006"
+    ],
+    "id": "CS-1789719040010-c4a1xzhd5",
+    "createdAt": "2026-09-18T08:10:40.010Z",
+    "updatedAt": "2026-09-18T08:32:22.701Z",
+    "bookingId": 3,
+    "flightNumber": "SK-305",
+    "lastIntent": "HIGHER_FARE_REBOOK",
+    "lastCustomerTone": "FRUSTRATED"
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "AUD-000001",
+    "conversationId": 112,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "decision": "ALLOWED",
+      "reason": "Full refund is available for this cancelled flight.",
+      "policyIds": [
+        1,
+        2
+      ]
+    },
+    "createdAt": "2026-09-18T07:50:03.051Z"
+  },
+  {
+    "id": "AUD-000002",
+    "conversationId": 112,
+    "eventType": "ACTION_EXECUTION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "actionId": "ACT-000001",
+      "status": "EXECUTED"
+    },
+    "createdAt": "2026-09-18T07:50:03.057Z"
+  },
+  {
+    "id": "AUD-000003",
+    "conversationId": 1,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "decision": "ALLOWED",
+      "reason": "Full refund is available for this cancelled flight.",
+      "policyIds": [
+        1,
+        2
+      ]
+    },
+    "createdAt": "2026-09-18T07:59:37.744Z"
+  },
+  {
+    "id": "AUD-000004",
+    "conversationId": 1,
+    "eventType": "ACTION_EXECUTION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "actionId": "ACT-000002",
+      "status": "EXECUTED"
+    },
+    "createdAt": "2026-09-18T07:59:37.764Z"
+  },
+  {
+    "id": "AUD-000005",
+    "conversationId": 1,
+    "eventType": "DUPLICATE_ACTION_BLOCKED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "reason": "FULL_REFUND action already executed in conversation (Action ID: ACT-000002)",
+      "existingActionId": "ACT-000002"
+    },
+    "createdAt": "2026-09-18T07:59:56.151Z"
+  },
+  {
+    "id": "AUD-000006",
+    "conversationId": 1,
+    "eventType": "DUPLICATE_ACTION_BLOCKED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "reason": "FULL_REFUND action already executed in conversation (Action ID: ACT-000002)",
+      "existingActionId": "ACT-000002"
+    },
+    "createdAt": "2026-09-18T08:09:57.959Z"
+  },
+  {
+    "id": "AUD-000007",
+    "conversationId": 2,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "DELAY_COMPENSATION",
+      "decision": "ALLOWED",
+      "reason": "Delay compensation is available for 4 hour delay.",
+      "policyIds": [
+        3
+      ]
+    },
+    "createdAt": "2026-09-18T08:10:12.799Z"
+  },
+  {
+    "id": "AUD-000008",
+    "conversationId": 2,
+    "eventType": "ACTION_EXECUTION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "DELAY_COMPENSATION",
+      "actionId": "ACT-000003",
+      "status": "EXECUTED"
+    },
+    "createdAt": "2026-09-18T08:10:12.813Z"
+  },
+  {
+    "id": "AUD-000009",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:10:40.027Z"
+  },
+  {
+    "id": "AUD-000010",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000001",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:10:40.038Z"
+  },
+  {
+    "id": "AUD-000011",
+    "conversationId": 2,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "DELAY_COMPENSATION",
+      "decision": "ALLOWED",
+      "reason": "Delay compensation is available for 4 hour delay.",
+      "policyIds": [
+        3
+      ]
+    },
+    "createdAt": "2026-09-18T08:10:56.743Z"
+  },
+  {
+    "id": "AUD-000012",
+    "conversationId": 2,
+    "eventType": "ACTION_EXECUTION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "DELAY_COMPENSATION",
+      "actionId": "ACT-000004",
+      "status": "EXECUTED"
+    },
+    "createdAt": "2026-09-18T08:10:56.759Z"
+  },
+  {
+    "id": "AUD-000013",
+    "conversationId": 1,
+    "eventType": "DUPLICATE_ACTION_BLOCKED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "reason": "FULL_REFUND action already executed in conversation (Action ID: ACT-000002)",
+      "existingActionId": "ACT-000002"
+    },
+    "createdAt": "2026-09-18T08:13:11.750Z"
+  },
+  {
+    "id": "AUD-000014",
+    "conversationId": 1,
+    "eventType": "DUPLICATE_ACTION_BLOCKED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "reason": "FULL_REFUND action already executed in conversation (Action ID: ACT-000002)",
+      "existingActionId": "ACT-000002"
+    },
+    "createdAt": "2026-09-18T08:13:45.094Z"
+  },
+  {
+    "id": "AUD-000015",
+    "conversationId": 1,
+    "eventType": "DUPLICATE_ACTION_BLOCKED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "FULL_REFUND",
+      "reason": "FULL_REFUND action already executed in conversation (Action ID: ACT-000002)",
+      "existingActionId": "ACT-000002"
+    },
+    "createdAt": "2026-09-18T08:25:48.441Z"
+  },
+  {
+    "id": "AUD-000016",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:26:39.484Z"
+  },
+  {
+    "id": "AUD-000017",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000002",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:26:39.498Z"
+  },
+  {
+    "id": "AUD-000018",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:27:22.095Z"
+  },
+  {
+    "id": "AUD-000019",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000003",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:27:22.104Z"
+  },
+  {
+    "id": "AUD-000020",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:31:54.036Z"
+  },
+  {
+    "id": "AUD-000021",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000004",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:31:54.050Z"
+  },
+  {
+    "id": "AUD-000022",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:32:18.714Z"
+  },
+  {
+    "id": "AUD-000023",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000005",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:32:18.725Z"
+  },
+  {
+    "id": "AUD-000024",
+    "conversationId": 3,
+    "eventType": "POLICY_DECISION",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "policyIds": [
+        4
+      ]
+    },
+    "createdAt": "2026-09-18T08:32:22.695Z"
+  },
+  {
+    "id": "AUD-000025",
+    "conversationId": 3,
+    "eventType": "ESCALATION_CREATED",
+    "actor": "SYSTEM",
+    "metadataJson": {
+      "actionType": "HIGHER_FARE_REBOOK",
+      "decision": "ESCALATE",
+      "reason": "Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+      "escalationId": "ESC-000006",
+      "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY"
+    },
+    "createdAt": "2026-09-18T08:32:22.703Z"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "customerId": 1,
+    "pnr": "SK4821X",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-18T07:59:37.701Z",
+    "updatedAt": "2026-09-18T07:59:37.701Z"
+  },
+  {
+    "id": 2,
+    "customerId": 2,
+    "pnr": "TR1190B",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-18T08:10:12.768Z",
+    "updatedAt": "2026-09-18T08:10:12.768Z"
+  },
+  {
+    "id": 3,
+    "customerId": 3,
+    "pnr": "WL7742",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-18T08:10:40.004Z",
+    "updatedAt": "2026-09-18T08:10:40.004Z"
+  }
+]

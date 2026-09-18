@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ESC-000001",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:10:40.031Z",
+    "updatedAt": "2026-09-18T08:10:40.031Z"
+  },
+  {
+    "id": "ESC-000002",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:26:39.488Z",
+    "updatedAt": "2026-09-18T08:26:39.488Z"
+  },
+  {
+    "id": "ESC-000003",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:27:22.098Z",
+    "updatedAt": "2026-09-18T08:27:22.098Z"
+  },
+  {
+    "id": "ESC-000004",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:31:54.044Z",
+    "updatedAt": "2026-09-18T08:31:54.044Z"
+  },
+  {
+    "id": "ESC-000005",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:32:18.720Z",
+    "updatedAt": "2026-09-18T08:32:18.720Z"
+  },
+  {
+    "id": "ESC-000006",
+    "conversationId": 3,
+    "customerId": 3,
+    "reasonCode": "AMOUNT_EXCEEDS_AUTHORITY",
+    "summary": "ESCALATE: Requested fare difference of ₹2000 exceeds agent approval limit of ₹1500. This requires supervisor approval.",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-18T08:32:22.698Z",
+    "updatedAt": "2026-09-18T08:32:22.698Z"
+  }
+]

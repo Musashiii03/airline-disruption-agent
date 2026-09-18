@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "customerId": 1,
+    "pnr": "SK4821X",
+    "status": "CANCELLED",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "customerId": 2,
+    "pnr": "TR1190B",
+    "status": "DELAYED",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "customerId": 3,
+    "pnr": "WL7742",
+    "status": "DELAYED",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  }
+]

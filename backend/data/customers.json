@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Nair",
+    "loyaltyTier": "Gold",
+    "pnr": "SK4821X",
+    "contactEmail": "priya.nair@example.com",
+    "contactPhone": "+91-9876543210",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Arvind Kulkarni",
+    "loyaltyTier": "Silver",
+    "pnr": "TR1190B",
+    "contactEmail": "arvind.kulkarni@example.com",
+    "contactPhone": "+91-9876543211",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Meher Kaur",
+    "loyaltyTier": "Platinum",
+    "pnr": "WL7742",
+    "contactEmail": "meher.kaur@example.com",
+    "contactPhone": "+91-9876543212",
+    "createdAt": "2026-09-18T10:00:00Z",
+    "updatedAt": "2026-09-18T10:00:00Z"
+  }
+]

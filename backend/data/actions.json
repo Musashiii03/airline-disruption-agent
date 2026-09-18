@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ACT-000001",
+    "conversationId": 112,
+    "customerId": 1,
+    "bookingId": 1,
+    "actionType": "FULL_REFUND",
+    "status": "EXECUTED",
+    "requestedData": {},
+    "policyDecision": "ALLOWED",
+    "createdAt": "2026-09-18T07:50:03.052Z",
+    "updatedAt": "2026-09-18T07:50:03.055Z",
+    "resultData": {
+      "mode": "PROTOTYPE",
+      "success": true,
+      "message": "Full refund action recorded successfully in prototype mode."
+    }
+  },
+  {
+    "id": "ACT-000002",
+    "conversationId": 1,
+    "customerId": 1,
+    "bookingId": 1,
+    "actionType": "FULL_REFUND",
+    "status": "EXECUTED",
+    "requestedData": {},
+    "policyDecision": "ALLOWED",
+    "createdAt": "2026-09-18T07:59:37.750Z",
+    "updatedAt": "2026-09-18T07:59:37.759Z",
+    "resultData": {
+      "mode": "PROTOTYPE",
+      "success": true,
+      "message": "Full refund action recorded successfully in prototype mode."
+    }
+  },
+  {
+    "id": "ACT-000003",
+    "conversationId": 2,
+    "customerId": 2,
+    "bookingId": 2,
+    "actionType": "DELAY_COMPENSATION",
+    "status": "FAILED",
+    "requestedData": {},
+    "policyDecision": "ALLOWED",
+    "createdAt": "2026-09-18T08:10:12.803Z",
+    "updatedAt": "2026-09-18T08:10:12.808Z",
+    "resultData": {
+      "mode": "PROTOTYPE",
+      "success": false,
+      "message": "Unsupported action type: DELAY_COMPENSATION"
+    }
+  },
+  {
+    "id": "ACT-000004",
+    "conversationId": 2,
+    "customerId": 2,
+    "bookingId": 2,
+    "actionType": "DELAY_COMPENSATION",
+    "status": "FAILED",
+    "requestedData": {},
+    "policyDecision": "ALLOWED",
+    "createdAt": "2026-09-18T08:10:56.747Z",
+    "updatedAt": "2026-09-18T08:10:56.752Z",
+    "resultData": {
+      "mode": "PROTOTYPE",
+      "success": false,
+      "message": "Unsupported action type: DELAY_COMPENSATION"
+    }
+  }
+]

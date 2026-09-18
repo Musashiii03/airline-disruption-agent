@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "im priya SK4821X, my flight is cancelled",
+    "intent": "REFUND_REQUEST",
+    "createdAt": "2026-09-18T07:59:37.711Z"
+  },
+  {
+    "id": 2,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I have processed your full refund. You should see it in 7-10 business days.",
+    "createdAt": "2026-09-18T07:59:37.777Z"
+  },
+  {
+    "id": 3,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "i dont want a refund",
+    "createdAt": "2026-09-18T07:59:56.132Z"
+  },
+  {
+    "id": 4,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I've recorded your FULL_REFUND request and will follow up with you shortly.",
+    "createdAt": "2026-09-18T07:59:56.163Z"
+  },
+  {
+    "id": 5,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "i want a voucher instead",
+    "createdAt": "2026-09-18T08:00:18.541Z"
+  },
+  {
+    "id": 6,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "To better assist you, I need some information: clarification.",
+    "createdAt": "2026-09-18T08:00:18.557Z"
+  },
+  {
+    "id": 7,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "My flight SK-204 was cancelled and I want a full refund.",
+    "intent": "REFUND_REQUEST",
+    "createdAt": "2026-09-18T08:09:57.934Z"
+  },
+  {
+    "id": 8,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I've recorded your FULL_REFUND request and will follow up with you shortly.",
+    "createdAt": "2026-09-18T08:09:57.987Z"
+  },
+  {
+    "id": 9,
+    "conversationId": 2,
+    "role": "USER",
+    "content": "My flight SK-118 is delayed by 4 hours and I need assistance.",
+    "intent": "DELAY_ASSISTANCE",
+    "createdAt": "2026-09-18T08:10:12.772Z"
+  },
+  {
+    "id": 10,
+    "conversationId": 2,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your DELAY_COMPENSATION request has been processed successfully.",
+    "createdAt": "2026-09-18T08:10:12.822Z"
+  },
+  {
+    "id": 11,
+    "conversationId": 2,
+    "role": "USER",
+    "content": "what is the compensation",
+    "createdAt": "2026-09-18T08:10:34.652Z"
+  },
+  {
+    "id": 12,
+    "conversationId": 2,
+    "role": "ASSISTANT",
+    "content": "To better assist you, I need some information: clarification.",
+    "createdAt": "2026-09-18T08:10:34.660Z"
+  },
+  {
+    "id": 13,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "My flight SK-305 is delayed by 6 hours. I need a higher-fare flight. The fare difference is ₹2,000.",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:10:40.007Z"
+  },
+  {
+    "id": 14,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000001",
+    "createdAt": "2026-09-18T08:10:40.046Z"
+  },
+  {
+    "id": 15,
+    "conversationId": 2,
+    "role": "USER",
+    "content": "My flight SK-118 is delayed by 4 hours and I need assistance.",
+    "intent": "DELAY_ASSISTANCE",
+    "createdAt": "2026-09-18T08:10:56.719Z"
+  },
+  {
+    "id": 16,
+    "conversationId": 2,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your DELAY_COMPENSATION request has been processed successfully.",
+    "createdAt": "2026-09-18T08:10:56.767Z"
+  },
+  {
+    "id": 17,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "My flight SK-204 was cancelled and I want a full refund.",
+    "intent": "REFUND_REQUEST",
+    "createdAt": "2026-09-18T08:13:11.732Z"
+  },
+  {
+    "id": 18,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I've recorded your FULL_REFUND request and will follow up with you shortly.",
+    "createdAt": "2026-09-18T08:13:11.759Z"
+  },
+  {
+    "id": 19,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "my id is SK4821X . my flight got cancelled",
+    "intent": "REFUND_REQUEST",
+    "createdAt": "2026-09-18T08:13:45.078Z"
+  },
+  {
+    "id": 20,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I've recorded your FULL_REFUND request and will follow up with you shortly.",
+    "createdAt": "2026-09-18T08:13:45.100Z"
+  },
+  {
+    "id": 21,
+    "conversationId": 1,
+    "role": "USER",
+    "content": "I want a full cash refund",
+    "createdAt": "2026-09-18T08:25:48.410Z"
+  },
+  {
+    "id": 22,
+    "conversationId": 1,
+    "role": "ASSISTANT",
+    "content": "I will help you process a refund. I've recorded your FULL_REFUND request and will follow up with you shortly.",
+    "createdAt": "2026-09-18T08:25:48.453Z"
+  },
+  {
+    "id": 23,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "My flight SK-305 is delayed by 6 hours. I need a higher-fare flight. The fare difference is ₹2,000.",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:26:39.464Z"
+  },
+  {
+    "id": 24,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000002",
+    "createdAt": "2026-09-18T08:26:39.505Z"
+  },
+  {
+    "id": 25,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "My flight SK-305 is delayed by 6 hours. I need a higher-fare flight. The fare difference is ₹2,000.",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:27:22.073Z"
+  },
+  {
+    "id": 26,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000003",
+    "createdAt": "2026-09-18T08:27:22.119Z"
+  },
+  {
+    "id": 27,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "I am Meher, My id is WL7742, my flight got escalated",
+    "intent": "DELAY_ASSISTANCE",
+    "createdAt": "2026-09-18T08:29:29.026Z"
+  },
+  {
+    "id": 28,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "Thank you for reaching out. I am here to help with flight changes, refunds, or other resolution requests. Could you tell me more about what you need?",
+    "createdAt": "2026-09-18T08:29:29.059Z"
+  },
+  {
+    "id": 29,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "i want a high fare flight and the fare difference is 2,500",
+    "createdAt": "2026-09-18T08:30:30.582Z"
+  },
+  {
+    "id": 30,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "To better assist you, I need some information: clarification.",
+    "createdAt": "2026-09-18T08:30:30.593Z"
+  },
+  {
+    "id": 31,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "My flight SK-305 is delayed by 6 hours. I need a higher-fare flight. The fare difference is ₹2,000.",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:31:54.002Z"
+  },
+  {
+    "id": 32,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000004",
+    "createdAt": "2026-09-18T08:31:54.062Z"
+  },
+  {
+    "id": 33,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "My flight SK-305 is delayed by 6 hours. I need a higher-fare flight. The fare difference is ₹2,000.",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:32:18.674Z"
+  },
+  {
+    "id": 34,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000005",
+    "createdAt": "2026-09-18T08:32:18.738Z"
+  },
+  {
+    "id": 35,
+    "conversationId": 3,
+    "role": "USER",
+    "content": "I am Meher, my id is WL7742, my flight is delayed by 6 hours, I want a higher-fare flight and the fare difference is 2500",
+    "intent": "FARE_DIFFERENCE_REQUEST",
+    "createdAt": "2026-09-18T08:32:22.674Z"
+  },
+  {
+    "id": 36,
+    "conversationId": 3,
+    "role": "ASSISTANT",
+    "content": "I will help you with your request. Your request requires supervisor approval. I have escalated it for review and you will hear from our team shortly. Reference: ESC-000006",
+    "createdAt": "2026-09-18T08:32:22.710Z"
+  }
+]
